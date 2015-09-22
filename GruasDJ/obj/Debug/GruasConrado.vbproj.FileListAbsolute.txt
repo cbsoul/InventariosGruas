@@ -49,3 +49,6 @@ E:\Respaldos\Respaldo Asus\Desarrollo\Conrado-1.0\GruasConrado\GruasDJ\obj\Debug
 E:\Respaldos\Respaldo Asus\Desarrollo\Conrado-1.0\GruasConrado\GruasDJ\obj\Debug\GruasConrado.Salidas.resources
 E:\Respaldos\Respaldo Asus\Desarrollo\Conrado-1.0\GruasConrado\GruasDJ\obj\Debug\GruasConrado.SplashScreen1.resources
 E:\Respaldos\Respaldo Asus\Desarrollo\Conrado-1.0\GruasConrado\GruasDJ\obj\Debug\GruasConrado.vbproj.GenerateResource.Cache
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.exe
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.xml
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.pdb
