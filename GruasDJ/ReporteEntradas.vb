@@ -11,6 +11,7 @@ Public Class corralonCH
         CostoOficial.TextAlign = HorizontalAlignment.Right
         CostoMP.TextAlign = HorizontalAlignment.Right
         CostoTotal.TextAlign = HorizontalAlignment.Right
+        txtTotalIva.TextAlign = HorizontalAlignment.Right
 
         If CostosCHB.Checked = False Then
             CostoAbogado.Enabled = False
@@ -343,7 +344,7 @@ Public Class corralonCH
         Fecha.Value = Date.Now
         Reporte()
         costosIinicio()
-
+        txtTotalIva.Text = (CostoTotal.Text * 0.16) + (CostoTotal.Text)
         If FechaCH.Checked = True Then
             Fecha.Enabled = True
         Else
@@ -351,6 +352,7 @@ Public Class corralonCH
         End If
         tipoCH.Checked = True
         tipoCH.Checked = False
+
     End Sub
 
     Private Sub FechaCH_CheckedChanged(sender As Object, e As EventArgs) Handles FechaCH.CheckedChanged
@@ -769,6 +771,7 @@ Public Class corralonCH
         Dim CAB As Single
         Dim COF As Single
         Dim CTotal As Single
+        Dim iva As Double
         If CostoMP.Text = "0" Then
             ' Seleccionas todo el texto del campo
             CostoMP.SelectAll()
@@ -790,7 +793,8 @@ Public Class corralonCH
                     COF = CostoOficial.Text
                     CTotal = CMP + CAB + COF
                     CostoTotal.Text = CTotal
-
+                    iva = (CTotal * 0.16) + (CTotal)
+                    txtTotalIva.Text = iva
                 End If
 
 
@@ -808,6 +812,7 @@ Public Class corralonCH
         Dim CAB As Single
         Dim COF As Single
         Dim CTotal As Single
+        Dim iva As Double
         If CostoOficial.Text = "0" Then
             ' Seleccionas todo el texto del campo
             CostoOficial.SelectAll()
@@ -830,7 +835,8 @@ Public Class corralonCH
                     COF = CostoOficial.Text
                     CTotal = CMP + CAB + COF
                     CostoTotal.Text = CTotal
-
+                    iva = (CTotal * 0.16) + (CTotal)
+                    txtTotalIva.Text = iva
                 End If
 
 
@@ -847,7 +853,7 @@ Public Class corralonCH
         Dim CAB As Single
         Dim COF As Single
         Dim CTotal As Single
-
+        Dim iva As Double
         If CostoAbogado.Text = "0" Then
             ' Seleccionas todo el texto del campo
             CostoAbogado.SelectAll()
@@ -870,7 +876,8 @@ Public Class corralonCH
                     COF = CostoOficial.Text
                     CTotal = CMP + CAB + COF
                     CostoTotal.Text = CTotal
-
+                    iva = (CTotal * 0.16) + (CTotal)
+                    txtTotalIva.Text = iva
                 End If
 
 

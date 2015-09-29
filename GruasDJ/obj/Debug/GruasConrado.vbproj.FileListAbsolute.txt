@@ -52,3 +52,17 @@ E:\Respaldos\Respaldo Asus\Desarrollo\Conrado-1.0\GruasConrado\GruasDJ\obj\Debug
 F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.exe
 F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.xml
 F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.pdb
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\bin\Debug\GruasConrado.exe
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\bin\Debug\GruasConrado.pdb
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\bin\Debug\GruasConrado.xml
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.vbprojResolveAssemblyReference.cache
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.ReporteSalidas.resources
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.Form1.resources
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.Resources.resources
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.NuevoDB.resources
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.NuevoVehiculo.resources
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.Passwords.resources
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.corralonCH.resources
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.Salidas.resources
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.SplashScreen1.resources
+F:\Documentos\GitHub\InventariosGruas\GruasDJ\obj\Debug\GruasConrado.vbproj.GenerateResource.Cache

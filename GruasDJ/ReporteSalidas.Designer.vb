@@ -76,15 +76,18 @@ Partial Class ReporteSalidas
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.CorralonCB = New System.Windows.Forms.ComboBox()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.txtTotalIva = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'ChatarraCHB
         '
         Me.ChatarraCHB.AutoSize = True
         Me.ChatarraCHB.Enabled = False
-        Me.ChatarraCHB.Location = New System.Drawing.Point(919, 484)
+        Me.ChatarraCHB.Location = New System.Drawing.Point(689, 393)
+        Me.ChatarraCHB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ChatarraCHB.Name = "ChatarraCHB"
-        Me.ChatarraCHB.Size = New System.Drawing.Size(85, 21)
+        Me.ChatarraCHB.Size = New System.Drawing.Size(66, 17)
         Me.ChatarraCHB.TabIndex = 261
         Me.ChatarraCHB.Text = "Chatarra"
         Me.ChatarraCHB.UseVisualStyleBackColor = True
@@ -95,18 +98,20 @@ Partial Class ReporteSalidas
         Me.FPagoCB.Enabled = False
         Me.FPagoCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FPagoCB.FormattingEnabled = True
-        Me.FPagoCB.Location = New System.Drawing.Point(630, 454)
+        Me.FPagoCB.Location = New System.Drawing.Point(472, 384)
+        Me.FPagoCB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.FPagoCB.Name = "FPagoCB"
-        Me.FPagoCB.Size = New System.Drawing.Size(218, 24)
+        Me.FPagoCB.Size = New System.Drawing.Size(164, 21)
         Me.FPagoCB.TabIndex = 260
         '
         'Label23
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(463, 457)
+        Me.Label23.Location = New System.Drawing.Point(347, 386)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(97, 17)
+        Me.Label23.Size = New System.Drawing.Size(77, 13)
         Me.Label23.TabIndex = 259
         Me.Label23.Text = "F. de Pago :"
         '
@@ -114,36 +119,40 @@ Partial Class ReporteSalidas
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(463, 384)
+        Me.Label17.Location = New System.Drawing.Point(347, 312)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(85, 17)
+        Me.Label17.Size = New System.Drawing.Size(67, 13)
         Me.Label17.TabIndex = 258
         Me.Label17.Text = "Ingresos : "
         '
         'TotalTXT
         '
         Me.TotalTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TotalTXT.Location = New System.Drawing.Point(630, 409)
+        Me.TotalTXT.Location = New System.Drawing.Point(472, 332)
+        Me.TotalTXT.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TotalTXT.Name = "TotalTXT"
         Me.TotalTXT.ReadOnly = True
-        Me.TotalTXT.Size = New System.Drawing.Size(107, 22)
+        Me.TotalTXT.Size = New System.Drawing.Size(81, 19)
         Me.TotalTXT.TabIndex = 257
         '
         'IngresosTXT
         '
         Me.IngresosTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IngresosTXT.Location = New System.Drawing.Point(630, 381)
+        Me.IngresosTXT.Location = New System.Drawing.Point(472, 310)
+        Me.IngresosTXT.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.IngresosTXT.Name = "IngresosTXT"
         Me.IngresosTXT.ReadOnly = True
-        Me.IngresosTXT.Size = New System.Drawing.Size(107, 22)
+        Me.IngresosTXT.Size = New System.Drawing.Size(81, 19)
         Me.IngresosTXT.TabIndex = 256
         '
         'SalidaBtn
         '
         Me.SalidaBtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SalidaBtn.Location = New System.Drawing.Point(1126, 455)
+        Me.SalidaBtn.Location = New System.Drawing.Point(844, 370)
+        Me.SalidaBtn.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.SalidaBtn.Name = "SalidaBtn"
-        Me.SalidaBtn.Size = New System.Drawing.Size(121, 49)
+        Me.SalidaBtn.Size = New System.Drawing.Size(91, 40)
         Me.SalidaBtn.TabIndex = 255
         Me.SalidaBtn.Text = "&Aceptar"
         Me.SalidaBtn.UseVisualStyleBackColor = True
@@ -153,10 +162,11 @@ Partial Class ReporteSalidas
         Me.ObSalidasTXT.BackColor = System.Drawing.Color.Honeydew
         Me.ObSalidasTXT.Enabled = False
         Me.ObSalidasTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ObSalidasTXT.Location = New System.Drawing.Point(919, 258)
+        Me.ObSalidasTXT.Location = New System.Drawing.Point(689, 210)
+        Me.ObSalidasTXT.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ObSalidasTXT.Multiline = True
         Me.ObSalidasTXT.Name = "ObSalidasTXT"
-        Me.ObSalidasTXT.Size = New System.Drawing.Size(328, 145)
+        Me.ObSalidasTXT.Size = New System.Drawing.Size(247, 119)
         Me.ObSalidasTXT.TabIndex = 254
         '
         'Obtxt
@@ -164,56 +174,62 @@ Partial Class ReporteSalidas
         Me.Obtxt.BackColor = System.Drawing.SystemColors.Info
         Me.Obtxt.Enabled = False
         Me.Obtxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Obtxt.Location = New System.Drawing.Point(919, 69)
+        Me.Obtxt.Location = New System.Drawing.Point(689, 56)
+        Me.Obtxt.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Obtxt.Multiline = True
         Me.Obtxt.Name = "Obtxt"
-        Me.Obtxt.Size = New System.Drawing.Size(328, 145)
+        Me.Obtxt.Size = New System.Drawing.Size(247, 119)
         Me.Obtxt.TabIndex = 253
         '
         'Label24
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(463, 412)
+        Me.Label24.Location = New System.Drawing.Point(347, 335)
+        Me.Label24.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(55, 17)
+        Me.Label24.Size = New System.Drawing.Size(44, 13)
         Me.Label24.TabIndex = 250
         Me.Label24.Text = "Total :"
         '
         'CostoAbogado
         '
         Me.CostoAbogado.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CostoAbogado.Location = New System.Drawing.Point(630, 347)
+        Me.CostoAbogado.Location = New System.Drawing.Point(472, 282)
+        Me.CostoAbogado.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.CostoAbogado.Name = "CostoAbogado"
         Me.CostoAbogado.ReadOnly = True
-        Me.CostoAbogado.Size = New System.Drawing.Size(107, 22)
+        Me.CostoAbogado.Size = New System.Drawing.Size(81, 19)
         Me.CostoAbogado.TabIndex = 249
         '
         'CostoOficial
         '
         Me.CostoOficial.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CostoOficial.Location = New System.Drawing.Point(630, 321)
+        Me.CostoOficial.Location = New System.Drawing.Point(472, 261)
+        Me.CostoOficial.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.CostoOficial.Name = "CostoOficial"
         Me.CostoOficial.ReadOnly = True
-        Me.CostoOficial.Size = New System.Drawing.Size(107, 22)
+        Me.CostoOficial.Size = New System.Drawing.Size(81, 19)
         Me.CostoOficial.TabIndex = 248
         '
         'CostoMP
         '
         Me.CostoMP.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CostoMP.Location = New System.Drawing.Point(630, 293)
+        Me.CostoMP.Location = New System.Drawing.Point(472, 238)
+        Me.CostoMP.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.CostoMP.Name = "CostoMP"
         Me.CostoMP.ReadOnly = True
-        Me.CostoMP.Size = New System.Drawing.Size(107, 22)
+        Me.CostoMP.Size = New System.Drawing.Size(81, 19)
         Me.CostoMP.TabIndex = 247
         '
         'Label21
         '
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(463, 350)
+        Me.Label21.Location = New System.Drawing.Point(347, 284)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(82, 17)
+        Me.Label21.Size = New System.Drawing.Size(65, 13)
         Me.Label21.TabIndex = 246
         Me.Label21.Text = "Abogado :"
         '
@@ -221,9 +237,10 @@ Partial Class ReporteSalidas
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(463, 321)
+        Me.Label20.Location = New System.Drawing.Point(347, 261)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(64, 17)
+        Me.Label20.Size = New System.Drawing.Size(51, 13)
         Me.Label20.TabIndex = 245
         Me.Label20.Text = "Oficial :"
         '
@@ -231,9 +248,10 @@ Partial Class ReporteSalidas
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(463, 294)
+        Me.Label18.Location = New System.Drawing.Point(347, 239)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(77, 17)
+        Me.Label18.Size = New System.Drawing.Size(62, 13)
         Me.Label18.TabIndex = 244
         Me.Label18.Text = "MP o JC :"
         '
@@ -242,11 +260,12 @@ Partial Class ReporteSalidas
         Me.FechaSalida.CustomFormat = ""
         Me.FechaSalida.Enabled = False
         Me.FechaSalida.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FechaSalida.Location = New System.Drawing.Point(1086, 12)
+        Me.FechaSalida.Location = New System.Drawing.Point(814, 10)
+        Me.FechaSalida.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.FechaSalida.MaxDate = New Date(2040, 12, 31, 0, 0, 0, 0)
         Me.FechaSalida.MinDate = New Date(2000, 12, 31, 0, 0, 0, 0)
         Me.FechaSalida.Name = "FechaSalida"
-        Me.FechaSalida.Size = New System.Drawing.Size(161, 27)
+        Me.FechaSalida.Size = New System.Drawing.Size(122, 23)
         Me.FechaSalida.TabIndex = 243
         '
         'FechaEnt
@@ -254,20 +273,22 @@ Partial Class ReporteSalidas
         Me.FechaEnt.CustomFormat = ""
         Me.FechaEnt.Enabled = False
         Me.FechaEnt.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FechaEnt.Location = New System.Drawing.Point(919, 12)
+        Me.FechaEnt.Location = New System.Drawing.Point(689, 10)
+        Me.FechaEnt.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.FechaEnt.MaxDate = New Date(2040, 12, 31, 0, 0, 0, 0)
         Me.FechaEnt.MinDate = New Date(2000, 12, 31, 0, 0, 0, 0)
         Me.FechaEnt.Name = "FechaEnt"
-        Me.FechaEnt.Size = New System.Drawing.Size(161, 27)
+        Me.FechaEnt.Size = New System.Drawing.Size(122, 23)
         Me.FechaEnt.TabIndex = 242
         '
         'Label19
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(463, 226)
+        Me.Label19.Location = New System.Drawing.Point(347, 184)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(91, 17)
+        Me.Label19.Size = New System.Drawing.Size(72, 13)
         Me.Label19.TabIndex = 241
         Me.Label19.Text = "Encargado:"
         '
@@ -279,9 +300,10 @@ Partial Class ReporteSalidas
         Me.EncargadoCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.EncargadoCB.ForeColor = System.Drawing.Color.Black
         Me.EncargadoCB.FormattingEnabled = True
-        Me.EncargadoCB.Location = New System.Drawing.Point(630, 223)
+        Me.EncargadoCB.Location = New System.Drawing.Point(472, 181)
+        Me.EncargadoCB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.EncargadoCB.Name = "EncargadoCB"
-        Me.EncargadoCB.Size = New System.Drawing.Size(218, 24)
+        Me.EncargadoCB.Size = New System.Drawing.Size(164, 21)
         Me.EncargadoCB.TabIndex = 240
         '
         'FolioSalidatxt
@@ -291,10 +313,11 @@ Partial Class ReporteSalidas
         Me.FolioSalidatxt.Enabled = False
         Me.FolioSalidatxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FolioSalidatxt.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.FolioSalidatxt.Location = New System.Drawing.Point(184, 12)
+        Me.FolioSalidatxt.Location = New System.Drawing.Point(138, 10)
+        Me.FolioSalidatxt.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.FolioSalidatxt.Name = "FolioSalidatxt"
         Me.FolioSalidatxt.ReadOnly = True
-        Me.FolioSalidatxt.Size = New System.Drawing.Size(130, 27)
+        Me.FolioSalidatxt.Size = New System.Drawing.Size(98, 23)
         Me.FolioSalidatxt.TabIndex = 239
         '
         'FolioEntradatxt
@@ -304,10 +327,11 @@ Partial Class ReporteSalidas
         Me.FolioEntradatxt.Enabled = False
         Me.FolioEntradatxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FolioEntradatxt.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.FolioEntradatxt.Location = New System.Drawing.Point(17, 12)
+        Me.FolioEntradatxt.Location = New System.Drawing.Point(13, 10)
+        Me.FolioEntradatxt.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.FolioEntradatxt.Name = "FolioEntradatxt"
         Me.FolioEntradatxt.ReadOnly = True
-        Me.FolioEntradatxt.Size = New System.Drawing.Size(130, 27)
+        Me.FolioEntradatxt.Size = New System.Drawing.Size(98, 23)
         Me.FolioEntradatxt.TabIndex = 238
         '
         'MotivoCB
@@ -318,18 +342,20 @@ Partial Class ReporteSalidas
         Me.MotivoCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MotivoCB.ForeColor = System.Drawing.Color.Black
         Me.MotivoCB.FormattingEnabled = True
-        Me.MotivoCB.Location = New System.Drawing.Point(630, 190)
+        Me.MotivoCB.Location = New System.Drawing.Point(472, 154)
+        Me.MotivoCB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.MotivoCB.Name = "MotivoCB"
-        Me.MotivoCB.Size = New System.Drawing.Size(218, 24)
+        Me.MotivoCB.Size = New System.Drawing.Size(164, 21)
         Me.MotivoCB.TabIndex = 237
         '
         'Label16
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(463, 193)
+        Me.Label16.Location = New System.Drawing.Point(347, 157)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(55, 17)
+        Me.Label16.Size = New System.Drawing.Size(45, 13)
         Me.Label16.TabIndex = 236
         Me.Label16.Text = "Motivo"
         '
@@ -339,9 +365,10 @@ Partial Class ReporteSalidas
         Me.SiniestroTXT.Enabled = False
         Me.SiniestroTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SiniestroTXT.ForeColor = System.Drawing.Color.Black
-        Me.SiniestroTXT.Location = New System.Drawing.Point(630, 127)
+        Me.SiniestroTXT.Location = New System.Drawing.Point(472, 103)
+        Me.SiniestroTXT.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.SiniestroTXT.Name = "SiniestroTXT"
-        Me.SiniestroTXT.Size = New System.Drawing.Size(218, 22)
+        Me.SiniestroTXT.Size = New System.Drawing.Size(164, 19)
         Me.SiniestroTXT.TabIndex = 235
         '
         'FolioAsTXT
@@ -350,9 +377,10 @@ Partial Class ReporteSalidas
         Me.FolioAsTXT.Enabled = False
         Me.FolioAsTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FolioAsTXT.ForeColor = System.Drawing.Color.Black
-        Me.FolioAsTXT.Location = New System.Drawing.Point(630, 99)
+        Me.FolioAsTXT.Location = New System.Drawing.Point(472, 80)
+        Me.FolioAsTXT.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.FolioAsTXT.Name = "FolioAsTXT"
-        Me.FolioAsTXT.Size = New System.Drawing.Size(218, 22)
+        Me.FolioAsTXT.Size = New System.Drawing.Size(164, 19)
         Me.FolioAsTXT.TabIndex = 234
         '
         'AseguradoraCB
@@ -363,9 +391,10 @@ Partial Class ReporteSalidas
         Me.AseguradoraCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AseguradoraCB.ForeColor = System.Drawing.Color.Black
         Me.AseguradoraCB.FormattingEnabled = True
-        Me.AseguradoraCB.Location = New System.Drawing.Point(630, 69)
+        Me.AseguradoraCB.Location = New System.Drawing.Point(472, 56)
+        Me.AseguradoraCB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.AseguradoraCB.Name = "AseguradoraCB"
-        Me.AseguradoraCB.Size = New System.Drawing.Size(218, 24)
+        Me.AseguradoraCB.Size = New System.Drawing.Size(164, 21)
         Me.AseguradoraCB.TabIndex = 233
         '
         'OperadorTXT
@@ -374,9 +403,10 @@ Partial Class ReporteSalidas
         Me.OperadorTXT.Enabled = False
         Me.OperadorTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OperadorTXT.ForeColor = System.Drawing.Color.Black
-        Me.OperadorTXT.Location = New System.Drawing.Point(183, 482)
+        Me.OperadorTXT.Location = New System.Drawing.Point(137, 392)
+        Me.OperadorTXT.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.OperadorTXT.Name = "OperadorTXT"
-        Me.OperadorTXT.Size = New System.Drawing.Size(218, 22)
+        Me.OperadorTXT.Size = New System.Drawing.Size(164, 19)
         Me.OperadorTXT.TabIndex = 232
         '
         'GruaTXT
@@ -385,9 +415,10 @@ Partial Class ReporteSalidas
         Me.GruaTXT.Enabled = False
         Me.GruaTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GruaTXT.ForeColor = System.Drawing.Color.Black
-        Me.GruaTXT.Location = New System.Drawing.Point(183, 454)
+        Me.GruaTXT.Location = New System.Drawing.Point(137, 369)
+        Me.GruaTXT.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GruaTXT.Name = "GruaTXT"
-        Me.GruaTXT.Size = New System.Drawing.Size(218, 22)
+        Me.GruaTXT.Size = New System.Drawing.Size(164, 19)
         Me.GruaTXT.TabIndex = 231
         '
         'ExpedienteTXT
@@ -396,9 +427,10 @@ Partial Class ReporteSalidas
         Me.ExpedienteTXT.Enabled = False
         Me.ExpedienteTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ExpedienteTXT.ForeColor = System.Drawing.Color.Black
-        Me.ExpedienteTXT.Location = New System.Drawing.Point(183, 426)
+        Me.ExpedienteTXT.Location = New System.Drawing.Point(137, 346)
+        Me.ExpedienteTXT.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ExpedienteTXT.Name = "ExpedienteTXT"
-        Me.ExpedienteTXT.Size = New System.Drawing.Size(218, 22)
+        Me.ExpedienteTXT.Size = New System.Drawing.Size(164, 19)
         Me.ExpedienteTXT.TabIndex = 230
         '
         'AutoridadCB
@@ -409,18 +441,20 @@ Partial Class ReporteSalidas
         Me.AutoridadCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AutoridadCB.ForeColor = System.Drawing.Color.Black
         Me.AutoridadCB.FormattingEnabled = True
-        Me.AutoridadCB.Location = New System.Drawing.Point(183, 396)
+        Me.AutoridadCB.Location = New System.Drawing.Point(137, 322)
+        Me.AutoridadCB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.AutoridadCB.Name = "AutoridadCB"
-        Me.AutoridadCB.Size = New System.Drawing.Size(218, 24)
+        Me.AutoridadCB.Size = New System.Drawing.Size(164, 21)
         Me.AutoridadCB.TabIndex = 229
         '
         'Label15
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(19, 399)
+        Me.Label15.Location = New System.Drawing.Point(14, 324)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(83, 17)
+        Me.Label15.Size = New System.Drawing.Size(65, 13)
         Me.Label15.TabIndex = 228
         Me.Label15.Text = "Autoridad:"
         '
@@ -432,9 +466,10 @@ Partial Class ReporteSalidas
         Me.EmpresaCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.EmpresaCB.ForeColor = System.Drawing.Color.Black
         Me.EmpresaCB.FormattingEnabled = True
-        Me.EmpresaCB.Location = New System.Drawing.Point(183, 366)
+        Me.EmpresaCB.Location = New System.Drawing.Point(137, 297)
+        Me.EmpresaCB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.EmpresaCB.Name = "EmpresaCB"
-        Me.EmpresaCB.Size = New System.Drawing.Size(217, 24)
+        Me.EmpresaCB.Size = New System.Drawing.Size(164, 21)
         Me.EmpresaCB.TabIndex = 227
         '
         'InventarioTXT
@@ -443,9 +478,10 @@ Partial Class ReporteSalidas
         Me.InventarioTXT.Enabled = False
         Me.InventarioTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.InventarioTXT.ForeColor = System.Drawing.Color.Black
-        Me.InventarioTXT.Location = New System.Drawing.Point(184, 291)
+        Me.InventarioTXT.Location = New System.Drawing.Point(138, 236)
+        Me.InventarioTXT.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.InventarioTXT.Name = "InventarioTXT"
-        Me.InventarioTXT.Size = New System.Drawing.Size(217, 22)
+        Me.InventarioTXT.Size = New System.Drawing.Size(164, 19)
         Me.InventarioTXT.TabIndex = 226
         '
         'SerieTXT
@@ -454,9 +490,10 @@ Partial Class ReporteSalidas
         Me.SerieTXT.Enabled = False
         Me.SerieTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SerieTXT.ForeColor = System.Drawing.Color.Black
-        Me.SerieTXT.Location = New System.Drawing.Point(184, 263)
+        Me.SerieTXT.Location = New System.Drawing.Point(138, 214)
+        Me.SerieTXT.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.SerieTXT.Name = "SerieTXT"
-        Me.SerieTXT.Size = New System.Drawing.Size(217, 22)
+        Me.SerieTXT.Size = New System.Drawing.Size(164, 19)
         Me.SerieTXT.TabIndex = 225
         '
         'PlacasTXT
@@ -465,9 +502,10 @@ Partial Class ReporteSalidas
         Me.PlacasTXT.Enabled = False
         Me.PlacasTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PlacasTXT.ForeColor = System.Drawing.Color.Black
-        Me.PlacasTXT.Location = New System.Drawing.Point(184, 235)
+        Me.PlacasTXT.Location = New System.Drawing.Point(138, 191)
+        Me.PlacasTXT.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PlacasTXT.Name = "PlacasTXT"
-        Me.PlacasTXT.Size = New System.Drawing.Size(217, 22)
+        Me.PlacasTXT.Size = New System.Drawing.Size(164, 19)
         Me.PlacasTXT.TabIndex = 224
         '
         'ColorCB
@@ -478,9 +516,10 @@ Partial Class ReporteSalidas
         Me.ColorCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ColorCB.ForeColor = System.Drawing.Color.Black
         Me.ColorCB.FormattingEnabled = True
-        Me.ColorCB.Location = New System.Drawing.Point(184, 204)
+        Me.ColorCB.Location = New System.Drawing.Point(138, 166)
+        Me.ColorCB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ColorCB.Name = "ColorCB"
-        Me.ColorCB.Size = New System.Drawing.Size(217, 24)
+        Me.ColorCB.Size = New System.Drawing.Size(164, 21)
         Me.ColorCB.TabIndex = 223
         '
         'TipoCB
@@ -491,9 +530,10 @@ Partial Class ReporteSalidas
         Me.TipoCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TipoCB.ForeColor = System.Drawing.Color.Black
         Me.TipoCB.FormattingEnabled = True
-        Me.TipoCB.Location = New System.Drawing.Point(184, 174)
+        Me.TipoCB.Location = New System.Drawing.Point(138, 141)
+        Me.TipoCB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TipoCB.Name = "TipoCB"
-        Me.TipoCB.Size = New System.Drawing.Size(217, 24)
+        Me.TipoCB.Size = New System.Drawing.Size(164, 21)
         Me.TipoCB.TabIndex = 222
         '
         'MarcaCB
@@ -504,18 +544,20 @@ Partial Class ReporteSalidas
         Me.MarcaCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MarcaCB.ForeColor = System.Drawing.Color.Black
         Me.MarcaCB.FormattingEnabled = True
-        Me.MarcaCB.Location = New System.Drawing.Point(184, 141)
+        Me.MarcaCB.Location = New System.Drawing.Point(138, 115)
+        Me.MarcaCB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.MarcaCB.Name = "MarcaCB"
-        Me.MarcaCB.Size = New System.Drawing.Size(217, 24)
+        Me.MarcaCB.Size = New System.Drawing.Size(164, 21)
         Me.MarcaCB.TabIndex = 221
         '
         'Label14
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(463, 130)
+        Me.Label14.Location = New System.Drawing.Point(347, 106)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(100, 17)
+        Me.Label14.Size = New System.Drawing.Size(78, 13)
         Me.Label14.TabIndex = 220
         Me.Label14.Text = "N° Siniestro:"
         '
@@ -523,9 +565,10 @@ Partial Class ReporteSalidas
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(463, 102)
+        Me.Label13.Location = New System.Drawing.Point(347, 83)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(146, 17)
+        Me.Label13.Size = New System.Drawing.Size(113, 13)
         Me.Label13.TabIndex = 219
         Me.Label13.Text = "Folio Aseguradora:"
         '
@@ -533,9 +576,10 @@ Partial Class ReporteSalidas
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(463, 72)
+        Me.Label12.Location = New System.Drawing.Point(347, 58)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(106, 17)
+        Me.Label12.Size = New System.Drawing.Size(82, 13)
         Me.Label12.TabIndex = 218
         Me.Label12.Text = "Aseguradora:"
         '
@@ -543,9 +587,10 @@ Partial Class ReporteSalidas
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(19, 483)
+        Me.Label11.Location = New System.Drawing.Point(14, 392)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(128, 17)
+        Me.Label11.Size = New System.Drawing.Size(101, 13)
         Me.Label11.TabIndex = 217
         Me.Label11.Text = "Operador/Oficial"
         '
@@ -553,9 +598,10 @@ Partial Class ReporteSalidas
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(19, 455)
+        Me.Label10.Location = New System.Drawing.Point(14, 370)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(110, 17)
+        Me.Label10.Size = New System.Drawing.Size(87, 13)
         Me.Label10.TabIndex = 216
         Me.Label10.Text = "Grua/Patrulla:"
         '
@@ -563,9 +609,10 @@ Partial Class ReporteSalidas
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(19, 427)
+        Me.Label9.Location = New System.Drawing.Point(14, 347)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(155, 17)
+        Me.Label9.Size = New System.Drawing.Size(124, 13)
         Me.Label9.TabIndex = 215
         Me.Label9.Text = "Carpeta/Expediente:"
         '
@@ -573,9 +620,10 @@ Partial Class ReporteSalidas
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(19, 369)
+        Me.Label8.Location = New System.Drawing.Point(14, 300)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(154, 17)
+        Me.Label8.Size = New System.Drawing.Size(123, 13)
         Me.Label8.TabIndex = 214
         Me.Label8.Text = "Empresa/Municipio: "
         '
@@ -583,9 +631,10 @@ Partial Class ReporteSalidas
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(21, 291)
+        Me.Label7.Location = New System.Drawing.Point(16, 236)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(103, 17)
+        Me.Label7.Size = New System.Drawing.Size(82, 13)
         Me.Label7.TabIndex = 213
         Me.Label7.Text = "N° Inventario"
         '
@@ -593,9 +642,10 @@ Partial Class ReporteSalidas
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(21, 261)
+        Me.Label6.Location = New System.Drawing.Point(16, 212)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(74, 17)
+        Me.Label6.Size = New System.Drawing.Size(58, 13)
         Me.Label6.TabIndex = 212
         Me.Label6.Text = "N° Serie:"
         '
@@ -603,9 +653,10 @@ Partial Class ReporteSalidas
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(20, 232)
+        Me.Label5.Location = New System.Drawing.Point(15, 188)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(61, 17)
+        Me.Label5.Size = New System.Drawing.Size(49, 13)
         Me.Label5.TabIndex = 211
         Me.Label5.Text = "Placas:"
         '
@@ -613,9 +664,10 @@ Partial Class ReporteSalidas
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(20, 204)
+        Me.Label4.Location = New System.Drawing.Point(15, 166)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(51, 17)
+        Me.Label4.Size = New System.Drawing.Size(40, 13)
         Me.Label4.TabIndex = 210
         Me.Label4.Text = "Color:"
         '
@@ -623,9 +675,10 @@ Partial Class ReporteSalidas
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(20, 174)
+        Me.Label3.Location = New System.Drawing.Point(15, 141)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(45, 17)
+        Me.Label3.Size = New System.Drawing.Size(36, 13)
         Me.Label3.TabIndex = 209
         Me.Label3.Text = "Tipo:"
         '
@@ -633,9 +686,10 @@ Partial Class ReporteSalidas
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(20, 144)
+        Me.Label2.Location = New System.Drawing.Point(15, 117)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(57, 17)
+        Me.Label2.Size = New System.Drawing.Size(46, 13)
         Me.Label2.TabIndex = 208
         Me.Label2.Text = "Marca:"
         '
@@ -643,9 +697,10 @@ Partial Class ReporteSalidas
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(19, 72)
+        Me.Label1.Location = New System.Drawing.Point(14, 58)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(75, 17)
+        Me.Label1.Size = New System.Drawing.Size(58, 13)
         Me.Label1.TabIndex = 207
         Me.Label1.Text = "Corralón:"
         '
@@ -657,16 +712,38 @@ Partial Class ReporteSalidas
         Me.CorralonCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CorralonCB.ForeColor = System.Drawing.Color.Black
         Me.CorralonCB.FormattingEnabled = True
-        Me.CorralonCB.Location = New System.Drawing.Point(183, 69)
+        Me.CorralonCB.Location = New System.Drawing.Point(137, 56)
+        Me.CorralonCB.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.CorralonCB.Name = "CorralonCB"
-        Me.CorralonCB.Size = New System.Drawing.Size(217, 24)
+        Me.CorralonCB.Size = New System.Drawing.Size(164, 21)
         Me.CorralonCB.TabIndex = 206
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Location = New System.Drawing.Point(347, 358)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(83, 13)
+        Me.Label22.TabIndex = 250
+        Me.Label22.Text = "Total  + IVA :"
+        '
+        'txtTotalIva
+        '
+        Me.txtTotalIva.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.txtTotalIva.Location = New System.Drawing.Point(472, 356)
+        Me.txtTotalIva.Name = "txtTotalIva"
+        Me.txtTotalIva.ReadOnly = True
+        Me.txtTotalIva.Size = New System.Drawing.Size(81, 20)
+        Me.txtTotalIva.TabIndex = 262
         '
         'ReporteSalidas
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1259, 521)
+        Me.ClientSize = New System.Drawing.Size(944, 423)
+        Me.Controls.Add(Me.txtTotalIva)
         Me.Controls.Add(Me.ChatarraCHB)
         Me.Controls.Add(Me.FPagoCB)
         Me.Controls.Add(Me.Label23)
@@ -676,6 +753,7 @@ Partial Class ReporteSalidas
         Me.Controls.Add(Me.SalidaBtn)
         Me.Controls.Add(Me.ObSalidasTXT)
         Me.Controls.Add(Me.Obtxt)
+        Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.CostoAbogado)
         Me.Controls.Add(Me.CostoOficial)
@@ -721,6 +799,7 @@ Partial Class ReporteSalidas
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.CorralonCB)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "ReporteSalidas"
         Me.Text = "ConsultaSAlidas"
         Me.ResumeLayout(False)
@@ -781,4 +860,6 @@ Partial Class ReporteSalidas
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents CorralonCB As System.Windows.Forms.ComboBox
+    Friend WithEvents Label22 As System.Windows.Forms.Label
+    Friend WithEvents txtTotalIva As System.Windows.Forms.TextBox
 End Class

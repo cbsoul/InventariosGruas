@@ -22,6 +22,7 @@ Public Class ReporteSalidas
         CostoMP.TextAlign = HorizontalAlignment.Right
         TotalTXT.TextAlign = HorizontalAlignment.Right
         IngresosTXT.TextAlign = HorizontalAlignment.Right
+        txtTotalIva.TextAlign = HorizontalAlignment.Right
 
 
 
@@ -272,6 +273,7 @@ Public Class ReporteSalidas
         Reporte()
         costosIinicio()
         BuscarFormaDePago()
+        txtTotalIva.Text = (TotalTXT.Text * 0.16) + (TotalTXT.Text)
 
     End Sub
 

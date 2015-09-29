@@ -90,15 +90,18 @@ Partial Class corralonCH
         Me.CostosCHB = New System.Windows.Forms.CheckBox()
         Me.Obtxt = New System.Windows.Forms.TextBox()
         Me.Actualizarbtn = New System.Windows.Forms.Button()
+        Me.txtTotalIva = New System.Windows.Forms.TextBox()
+        Me.Label23 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label19
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(469, 223)
+        Me.Label19.Location = New System.Drawing.Point(352, 181)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(91, 17)
+        Me.Label19.Size = New System.Drawing.Size(72, 13)
         Me.Label19.TabIndex = 97
         Me.Label19.Text = "Encargado:"
         '
@@ -110,9 +113,10 @@ Partial Class corralonCH
         Me.EncargadoCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.EncargadoCB.ForeColor = System.Drawing.Color.Black
         Me.EncargadoCB.FormattingEnabled = True
-        Me.EncargadoCB.Location = New System.Drawing.Point(636, 220)
+        Me.EncargadoCB.Location = New System.Drawing.Point(477, 179)
+        Me.EncargadoCB.Margin = New System.Windows.Forms.Padding(2)
         Me.EncargadoCB.Name = "EncargadoCB"
-        Me.EncargadoCB.Size = New System.Drawing.Size(218, 24)
+        Me.EncargadoCB.Size = New System.Drawing.Size(164, 21)
         Me.EncargadoCB.TabIndex = 96
         '
         'FolioEntradatxt
@@ -122,19 +126,21 @@ Partial Class corralonCH
         Me.FolioEntradatxt.Enabled = False
         Me.FolioEntradatxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FolioEntradatxt.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.FolioEntradatxt.Location = New System.Drawing.Point(23, 9)
+        Me.FolioEntradatxt.Location = New System.Drawing.Point(17, 7)
+        Me.FolioEntradatxt.Margin = New System.Windows.Forms.Padding(2)
         Me.FolioEntradatxt.Name = "FolioEntradatxt"
         Me.FolioEntradatxt.ReadOnly = True
-        Me.FolioEntradatxt.Size = New System.Drawing.Size(130, 27)
+        Me.FolioEntradatxt.Size = New System.Drawing.Size(98, 23)
         Me.FolioEntradatxt.TabIndex = 95
         '
         'Label17
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(922, 67)
+        Me.Label17.Location = New System.Drawing.Point(692, 54)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(121, 17)
+        Me.Label17.Size = New System.Drawing.Size(95, 13)
         Me.Label17.TabIndex = 94
         Me.Label17.Text = "Observaciones:"
         '
@@ -146,18 +152,20 @@ Partial Class corralonCH
         Me.MotivoCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MotivoCB.ForeColor = System.Drawing.Color.Black
         Me.MotivoCB.FormattingEnabled = True
-        Me.MotivoCB.Location = New System.Drawing.Point(636, 187)
+        Me.MotivoCB.Location = New System.Drawing.Point(477, 152)
+        Me.MotivoCB.Margin = New System.Windows.Forms.Padding(2)
         Me.MotivoCB.Name = "MotivoCB"
-        Me.MotivoCB.Size = New System.Drawing.Size(218, 24)
+        Me.MotivoCB.Size = New System.Drawing.Size(164, 21)
         Me.MotivoCB.TabIndex = 93
         '
         'Label16
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(469, 190)
+        Me.Label16.Location = New System.Drawing.Point(352, 154)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(55, 17)
+        Me.Label16.Size = New System.Drawing.Size(45, 13)
         Me.Label16.TabIndex = 92
         Me.Label16.Text = "Motivo"
         '
@@ -167,9 +175,10 @@ Partial Class corralonCH
         Me.SiniestroTXT.Enabled = False
         Me.SiniestroTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SiniestroTXT.ForeColor = System.Drawing.Color.Black
-        Me.SiniestroTXT.Location = New System.Drawing.Point(636, 124)
+        Me.SiniestroTXT.Location = New System.Drawing.Point(477, 101)
+        Me.SiniestroTXT.Margin = New System.Windows.Forms.Padding(2)
         Me.SiniestroTXT.Name = "SiniestroTXT"
-        Me.SiniestroTXT.Size = New System.Drawing.Size(218, 22)
+        Me.SiniestroTXT.Size = New System.Drawing.Size(164, 19)
         Me.SiniestroTXT.TabIndex = 91
         '
         'FolioAsTXT
@@ -178,9 +187,10 @@ Partial Class corralonCH
         Me.FolioAsTXT.Enabled = False
         Me.FolioAsTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FolioAsTXT.ForeColor = System.Drawing.Color.Black
-        Me.FolioAsTXT.Location = New System.Drawing.Point(636, 96)
+        Me.FolioAsTXT.Location = New System.Drawing.Point(477, 78)
+        Me.FolioAsTXT.Margin = New System.Windows.Forms.Padding(2)
         Me.FolioAsTXT.Name = "FolioAsTXT"
-        Me.FolioAsTXT.Size = New System.Drawing.Size(218, 22)
+        Me.FolioAsTXT.Size = New System.Drawing.Size(164, 19)
         Me.FolioAsTXT.TabIndex = 90
         '
         'AseguradoraCB
@@ -191,9 +201,10 @@ Partial Class corralonCH
         Me.AseguradoraCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AseguradoraCB.ForeColor = System.Drawing.Color.Black
         Me.AseguradoraCB.FormattingEnabled = True
-        Me.AseguradoraCB.Location = New System.Drawing.Point(636, 66)
+        Me.AseguradoraCB.Location = New System.Drawing.Point(477, 54)
+        Me.AseguradoraCB.Margin = New System.Windows.Forms.Padding(2)
         Me.AseguradoraCB.Name = "AseguradoraCB"
-        Me.AseguradoraCB.Size = New System.Drawing.Size(218, 24)
+        Me.AseguradoraCB.Size = New System.Drawing.Size(164, 21)
         Me.AseguradoraCB.TabIndex = 89
         '
         'OperadorTXT
@@ -202,9 +213,10 @@ Partial Class corralonCH
         Me.OperadorTXT.Enabled = False
         Me.OperadorTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OperadorTXT.ForeColor = System.Drawing.Color.Black
-        Me.OperadorTXT.Location = New System.Drawing.Point(189, 479)
+        Me.OperadorTXT.Location = New System.Drawing.Point(142, 389)
+        Me.OperadorTXT.Margin = New System.Windows.Forms.Padding(2)
         Me.OperadorTXT.Name = "OperadorTXT"
-        Me.OperadorTXT.Size = New System.Drawing.Size(218, 22)
+        Me.OperadorTXT.Size = New System.Drawing.Size(164, 19)
         Me.OperadorTXT.TabIndex = 88
         '
         'GruaTXT
@@ -213,9 +225,10 @@ Partial Class corralonCH
         Me.GruaTXT.Enabled = False
         Me.GruaTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GruaTXT.ForeColor = System.Drawing.Color.Black
-        Me.GruaTXT.Location = New System.Drawing.Point(189, 451)
+        Me.GruaTXT.Location = New System.Drawing.Point(142, 366)
+        Me.GruaTXT.Margin = New System.Windows.Forms.Padding(2)
         Me.GruaTXT.Name = "GruaTXT"
-        Me.GruaTXT.Size = New System.Drawing.Size(218, 22)
+        Me.GruaTXT.Size = New System.Drawing.Size(164, 19)
         Me.GruaTXT.TabIndex = 87
         '
         'ExpedienteTXT
@@ -224,9 +237,10 @@ Partial Class corralonCH
         Me.ExpedienteTXT.Enabled = False
         Me.ExpedienteTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ExpedienteTXT.ForeColor = System.Drawing.Color.Black
-        Me.ExpedienteTXT.Location = New System.Drawing.Point(189, 423)
+        Me.ExpedienteTXT.Location = New System.Drawing.Point(142, 344)
+        Me.ExpedienteTXT.Margin = New System.Windows.Forms.Padding(2)
         Me.ExpedienteTXT.Name = "ExpedienteTXT"
-        Me.ExpedienteTXT.Size = New System.Drawing.Size(218, 22)
+        Me.ExpedienteTXT.Size = New System.Drawing.Size(164, 19)
         Me.ExpedienteTXT.TabIndex = 86
         '
         'AutoridadCB
@@ -237,18 +251,20 @@ Partial Class corralonCH
         Me.AutoridadCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AutoridadCB.ForeColor = System.Drawing.Color.Black
         Me.AutoridadCB.FormattingEnabled = True
-        Me.AutoridadCB.Location = New System.Drawing.Point(189, 393)
+        Me.AutoridadCB.Location = New System.Drawing.Point(142, 319)
+        Me.AutoridadCB.Margin = New System.Windows.Forms.Padding(2)
         Me.AutoridadCB.Name = "AutoridadCB"
-        Me.AutoridadCB.Size = New System.Drawing.Size(218, 24)
+        Me.AutoridadCB.Size = New System.Drawing.Size(164, 21)
         Me.AutoridadCB.TabIndex = 85
         '
         'Label15
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(25, 396)
+        Me.Label15.Location = New System.Drawing.Point(19, 322)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(83, 17)
+        Me.Label15.Size = New System.Drawing.Size(65, 13)
         Me.Label15.TabIndex = 84
         Me.Label15.Text = "Autoridad:"
         '
@@ -260,9 +276,10 @@ Partial Class corralonCH
         Me.EmpresaCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.EmpresaCB.ForeColor = System.Drawing.Color.Black
         Me.EmpresaCB.FormattingEnabled = True
-        Me.EmpresaCB.Location = New System.Drawing.Point(189, 363)
+        Me.EmpresaCB.Location = New System.Drawing.Point(142, 295)
+        Me.EmpresaCB.Margin = New System.Windows.Forms.Padding(2)
         Me.EmpresaCB.Name = "EmpresaCB"
-        Me.EmpresaCB.Size = New System.Drawing.Size(217, 24)
+        Me.EmpresaCB.Size = New System.Drawing.Size(164, 21)
         Me.EmpresaCB.TabIndex = 83
         '
         'InventarioTXT
@@ -271,9 +288,10 @@ Partial Class corralonCH
         Me.InventarioTXT.Enabled = False
         Me.InventarioTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.InventarioTXT.ForeColor = System.Drawing.Color.Black
-        Me.InventarioTXT.Location = New System.Drawing.Point(190, 288)
+        Me.InventarioTXT.Location = New System.Drawing.Point(142, 234)
+        Me.InventarioTXT.Margin = New System.Windows.Forms.Padding(2)
         Me.InventarioTXT.Name = "InventarioTXT"
-        Me.InventarioTXT.Size = New System.Drawing.Size(217, 22)
+        Me.InventarioTXT.Size = New System.Drawing.Size(164, 19)
         Me.InventarioTXT.TabIndex = 82
         '
         'SerieTXT
@@ -282,9 +300,10 @@ Partial Class corralonCH
         Me.SerieTXT.Enabled = False
         Me.SerieTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SerieTXT.ForeColor = System.Drawing.Color.Black
-        Me.SerieTXT.Location = New System.Drawing.Point(190, 260)
+        Me.SerieTXT.Location = New System.Drawing.Point(142, 211)
+        Me.SerieTXT.Margin = New System.Windows.Forms.Padding(2)
         Me.SerieTXT.Name = "SerieTXT"
-        Me.SerieTXT.Size = New System.Drawing.Size(217, 22)
+        Me.SerieTXT.Size = New System.Drawing.Size(164, 19)
         Me.SerieTXT.TabIndex = 81
         '
         'PlacasTXT
@@ -293,9 +312,10 @@ Partial Class corralonCH
         Me.PlacasTXT.Enabled = False
         Me.PlacasTXT.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PlacasTXT.ForeColor = System.Drawing.Color.Black
-        Me.PlacasTXT.Location = New System.Drawing.Point(190, 232)
+        Me.PlacasTXT.Location = New System.Drawing.Point(142, 188)
+        Me.PlacasTXT.Margin = New System.Windows.Forms.Padding(2)
         Me.PlacasTXT.Name = "PlacasTXT"
-        Me.PlacasTXT.Size = New System.Drawing.Size(217, 22)
+        Me.PlacasTXT.Size = New System.Drawing.Size(164, 19)
         Me.PlacasTXT.TabIndex = 80
         '
         'ColorCB
@@ -306,9 +326,10 @@ Partial Class corralonCH
         Me.ColorCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ColorCB.ForeColor = System.Drawing.Color.Black
         Me.ColorCB.FormattingEnabled = True
-        Me.ColorCB.Location = New System.Drawing.Point(190, 201)
+        Me.ColorCB.Location = New System.Drawing.Point(142, 163)
+        Me.ColorCB.Margin = New System.Windows.Forms.Padding(2)
         Me.ColorCB.Name = "ColorCB"
-        Me.ColorCB.Size = New System.Drawing.Size(217, 24)
+        Me.ColorCB.Size = New System.Drawing.Size(164, 21)
         Me.ColorCB.TabIndex = 79
         '
         'TipoCB
@@ -319,9 +340,10 @@ Partial Class corralonCH
         Me.TipoCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TipoCB.ForeColor = System.Drawing.Color.Black
         Me.TipoCB.FormattingEnabled = True
-        Me.TipoCB.Location = New System.Drawing.Point(190, 171)
+        Me.TipoCB.Location = New System.Drawing.Point(142, 139)
+        Me.TipoCB.Margin = New System.Windows.Forms.Padding(2)
         Me.TipoCB.Name = "TipoCB"
-        Me.TipoCB.Size = New System.Drawing.Size(217, 24)
+        Me.TipoCB.Size = New System.Drawing.Size(164, 21)
         Me.TipoCB.TabIndex = 78
         '
         'MarcaCB
@@ -332,18 +354,20 @@ Partial Class corralonCH
         Me.MarcaCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MarcaCB.ForeColor = System.Drawing.Color.Black
         Me.MarcaCB.FormattingEnabled = True
-        Me.MarcaCB.Location = New System.Drawing.Point(190, 138)
+        Me.MarcaCB.Location = New System.Drawing.Point(142, 112)
+        Me.MarcaCB.Margin = New System.Windows.Forms.Padding(2)
         Me.MarcaCB.Name = "MarcaCB"
-        Me.MarcaCB.Size = New System.Drawing.Size(217, 24)
+        Me.MarcaCB.Size = New System.Drawing.Size(164, 21)
         Me.MarcaCB.TabIndex = 77
         '
         'Label14
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(469, 127)
+        Me.Label14.Location = New System.Drawing.Point(352, 103)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(100, 17)
+        Me.Label14.Size = New System.Drawing.Size(78, 13)
         Me.Label14.TabIndex = 76
         Me.Label14.Text = "N° Siniestro:"
         '
@@ -351,9 +375,10 @@ Partial Class corralonCH
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(469, 99)
+        Me.Label13.Location = New System.Drawing.Point(352, 80)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(146, 17)
+        Me.Label13.Size = New System.Drawing.Size(113, 13)
         Me.Label13.TabIndex = 75
         Me.Label13.Text = "Folio Aseguradora:"
         '
@@ -361,9 +386,10 @@ Partial Class corralonCH
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(469, 69)
+        Me.Label12.Location = New System.Drawing.Point(352, 56)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(106, 17)
+        Me.Label12.Size = New System.Drawing.Size(82, 13)
         Me.Label12.TabIndex = 74
         Me.Label12.Text = "Aseguradora:"
         '
@@ -371,9 +397,10 @@ Partial Class corralonCH
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(25, 480)
+        Me.Label11.Location = New System.Drawing.Point(19, 390)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(128, 17)
+        Me.Label11.Size = New System.Drawing.Size(101, 13)
         Me.Label11.TabIndex = 73
         Me.Label11.Text = "Operador/Oficial"
         '
@@ -381,9 +408,10 @@ Partial Class corralonCH
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(25, 452)
+        Me.Label10.Location = New System.Drawing.Point(19, 367)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(110, 17)
+        Me.Label10.Size = New System.Drawing.Size(87, 13)
         Me.Label10.TabIndex = 72
         Me.Label10.Text = "Grua/Patrulla:"
         '
@@ -391,9 +419,10 @@ Partial Class corralonCH
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(25, 424)
+        Me.Label9.Location = New System.Drawing.Point(19, 344)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(155, 17)
+        Me.Label9.Size = New System.Drawing.Size(124, 13)
         Me.Label9.TabIndex = 71
         Me.Label9.Text = "Carpeta/Expediente:"
         '
@@ -401,9 +430,10 @@ Partial Class corralonCH
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(25, 366)
+        Me.Label8.Location = New System.Drawing.Point(19, 297)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(154, 17)
+        Me.Label8.Size = New System.Drawing.Size(123, 13)
         Me.Label8.TabIndex = 70
         Me.Label8.Text = "Empresa/Municipio: "
         '
@@ -411,9 +441,10 @@ Partial Class corralonCH
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(27, 288)
+        Me.Label7.Location = New System.Drawing.Point(20, 234)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(103, 17)
+        Me.Label7.Size = New System.Drawing.Size(82, 13)
         Me.Label7.TabIndex = 69
         Me.Label7.Text = "N° Inventario"
         '
@@ -421,9 +452,10 @@ Partial Class corralonCH
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(27, 258)
+        Me.Label6.Location = New System.Drawing.Point(20, 210)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(74, 17)
+        Me.Label6.Size = New System.Drawing.Size(58, 13)
         Me.Label6.TabIndex = 68
         Me.Label6.Text = "N° Serie:"
         '
@@ -431,9 +463,10 @@ Partial Class corralonCH
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(26, 229)
+        Me.Label5.Location = New System.Drawing.Point(20, 186)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(61, 17)
+        Me.Label5.Size = New System.Drawing.Size(49, 13)
         Me.Label5.TabIndex = 67
         Me.Label5.Text = "Placas:"
         '
@@ -441,9 +474,10 @@ Partial Class corralonCH
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(26, 201)
+        Me.Label4.Location = New System.Drawing.Point(20, 163)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(51, 17)
+        Me.Label4.Size = New System.Drawing.Size(40, 13)
         Me.Label4.TabIndex = 66
         Me.Label4.Text = "Color:"
         '
@@ -451,9 +485,10 @@ Partial Class corralonCH
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(26, 171)
+        Me.Label3.Location = New System.Drawing.Point(20, 139)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(45, 17)
+        Me.Label3.Size = New System.Drawing.Size(36, 13)
         Me.Label3.TabIndex = 65
         Me.Label3.Text = "Tipo:"
         '
@@ -461,9 +496,10 @@ Partial Class corralonCH
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(26, 141)
+        Me.Label2.Location = New System.Drawing.Point(20, 115)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(57, 17)
+        Me.Label2.Size = New System.Drawing.Size(46, 13)
         Me.Label2.TabIndex = 64
         Me.Label2.Text = "Marca:"
         '
@@ -471,9 +507,10 @@ Partial Class corralonCH
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(25, 69)
+        Me.Label1.Location = New System.Drawing.Point(19, 56)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(75, 17)
+        Me.Label1.Size = New System.Drawing.Size(58, 13)
         Me.Label1.TabIndex = 63
         Me.Label1.Text = "Corralón:"
         '
@@ -485,170 +522,189 @@ Partial Class corralonCH
         Me.CorralonCB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CorralonCB.ForeColor = System.Drawing.Color.Black
         Me.CorralonCB.FormattingEnabled = True
-        Me.CorralonCB.Location = New System.Drawing.Point(189, 66)
+        Me.CorralonCB.Location = New System.Drawing.Point(142, 54)
+        Me.CorralonCB.Margin = New System.Windows.Forms.Padding(2)
         Me.CorralonCB.Name = "CorralonCB"
-        Me.CorralonCB.Size = New System.Drawing.Size(217, 24)
+        Me.CorralonCB.Size = New System.Drawing.Size(164, 21)
         Me.CorralonCB.TabIndex = 62
         '
         'CorralonCHB
         '
         Me.CorralonCHB.AutoSize = True
-        Me.CorralonCHB.Location = New System.Drawing.Point(428, 68)
+        Me.CorralonCHB.Location = New System.Drawing.Point(321, 55)
+        Me.CorralonCHB.Margin = New System.Windows.Forms.Padding(2)
         Me.CorralonCHB.Name = "CorralonCHB"
-        Me.CorralonCHB.Size = New System.Drawing.Size(18, 17)
+        Me.CorralonCHB.Size = New System.Drawing.Size(15, 14)
         Me.CorralonCHB.TabIndex = 101
         Me.CorralonCHB.UseVisualStyleBackColor = True
         '
         'MarcaCH
         '
         Me.MarcaCH.AutoSize = True
-        Me.MarcaCH.Location = New System.Drawing.Point(428, 140)
+        Me.MarcaCH.Location = New System.Drawing.Point(321, 114)
+        Me.MarcaCH.Margin = New System.Windows.Forms.Padding(2)
         Me.MarcaCH.Name = "MarcaCH"
-        Me.MarcaCH.Size = New System.Drawing.Size(18, 17)
+        Me.MarcaCH.Size = New System.Drawing.Size(15, 14)
         Me.MarcaCH.TabIndex = 102
         Me.MarcaCH.UseVisualStyleBackColor = True
         '
         'tipoCH
         '
         Me.tipoCH.AutoSize = True
-        Me.tipoCH.Location = New System.Drawing.Point(428, 173)
+        Me.tipoCH.Location = New System.Drawing.Point(321, 141)
+        Me.tipoCH.Margin = New System.Windows.Forms.Padding(2)
         Me.tipoCH.Name = "tipoCH"
-        Me.tipoCH.Size = New System.Drawing.Size(18, 17)
+        Me.tipoCH.Size = New System.Drawing.Size(15, 14)
         Me.tipoCH.TabIndex = 103
         Me.tipoCH.UseVisualStyleBackColor = True
         '
         'ColorCH
         '
         Me.ColorCH.AutoSize = True
-        Me.ColorCH.Location = New System.Drawing.Point(428, 203)
+        Me.ColorCH.Location = New System.Drawing.Point(321, 165)
+        Me.ColorCH.Margin = New System.Windows.Forms.Padding(2)
         Me.ColorCH.Name = "ColorCH"
-        Me.ColorCH.Size = New System.Drawing.Size(18, 17)
+        Me.ColorCH.Size = New System.Drawing.Size(15, 14)
         Me.ColorCH.TabIndex = 104
         Me.ColorCH.UseVisualStyleBackColor = True
         '
         'PlacasCH
         '
         Me.PlacasCH.AutoSize = True
-        Me.PlacasCH.Location = New System.Drawing.Point(428, 234)
+        Me.PlacasCH.Location = New System.Drawing.Point(321, 190)
+        Me.PlacasCH.Margin = New System.Windows.Forms.Padding(2)
         Me.PlacasCH.Name = "PlacasCH"
-        Me.PlacasCH.Size = New System.Drawing.Size(18, 17)
+        Me.PlacasCH.Size = New System.Drawing.Size(15, 14)
         Me.PlacasCH.TabIndex = 105
         Me.PlacasCH.UseVisualStyleBackColor = True
         '
         'SerieCH
         '
         Me.SerieCH.AutoSize = True
-        Me.SerieCH.Location = New System.Drawing.Point(428, 262)
+        Me.SerieCH.Location = New System.Drawing.Point(321, 213)
+        Me.SerieCH.Margin = New System.Windows.Forms.Padding(2)
         Me.SerieCH.Name = "SerieCH"
-        Me.SerieCH.Size = New System.Drawing.Size(18, 17)
+        Me.SerieCH.Size = New System.Drawing.Size(15, 14)
         Me.SerieCH.TabIndex = 106
         Me.SerieCH.UseVisualStyleBackColor = True
         '
         'inventarioCH
         '
         Me.inventarioCH.AutoSize = True
-        Me.inventarioCH.Location = New System.Drawing.Point(428, 290)
+        Me.inventarioCH.Location = New System.Drawing.Point(321, 236)
+        Me.inventarioCH.Margin = New System.Windows.Forms.Padding(2)
         Me.inventarioCH.Name = "inventarioCH"
-        Me.inventarioCH.Size = New System.Drawing.Size(18, 17)
+        Me.inventarioCH.Size = New System.Drawing.Size(15, 14)
         Me.inventarioCH.TabIndex = 107
         Me.inventarioCH.UseVisualStyleBackColor = True
         '
         'EmpresaCH
         '
         Me.EmpresaCH.AutoSize = True
-        Me.EmpresaCH.Location = New System.Drawing.Point(428, 365)
+        Me.EmpresaCH.Location = New System.Drawing.Point(321, 297)
+        Me.EmpresaCH.Margin = New System.Windows.Forms.Padding(2)
         Me.EmpresaCH.Name = "EmpresaCH"
-        Me.EmpresaCH.Size = New System.Drawing.Size(18, 17)
+        Me.EmpresaCH.Size = New System.Drawing.Size(15, 14)
         Me.EmpresaCH.TabIndex = 108
         Me.EmpresaCH.UseVisualStyleBackColor = True
         '
         'AutoridadCH
         '
         Me.AutoridadCH.AutoSize = True
-        Me.AutoridadCH.Location = New System.Drawing.Point(428, 395)
+        Me.AutoridadCH.Location = New System.Drawing.Point(321, 321)
+        Me.AutoridadCH.Margin = New System.Windows.Forms.Padding(2)
         Me.AutoridadCH.Name = "AutoridadCH"
-        Me.AutoridadCH.Size = New System.Drawing.Size(18, 17)
+        Me.AutoridadCH.Size = New System.Drawing.Size(15, 14)
         Me.AutoridadCH.TabIndex = 109
         Me.AutoridadCH.UseVisualStyleBackColor = True
         '
         'ExpedienteCH
         '
         Me.ExpedienteCH.AutoSize = True
-        Me.ExpedienteCH.Location = New System.Drawing.Point(428, 425)
+        Me.ExpedienteCH.Location = New System.Drawing.Point(321, 345)
+        Me.ExpedienteCH.Margin = New System.Windows.Forms.Padding(2)
         Me.ExpedienteCH.Name = "ExpedienteCH"
-        Me.ExpedienteCH.Size = New System.Drawing.Size(18, 17)
+        Me.ExpedienteCH.Size = New System.Drawing.Size(15, 14)
         Me.ExpedienteCH.TabIndex = 110
         Me.ExpedienteCH.UseVisualStyleBackColor = True
         '
         'gruaCH
         '
         Me.gruaCH.AutoSize = True
-        Me.gruaCH.Location = New System.Drawing.Point(428, 451)
+        Me.gruaCH.Location = New System.Drawing.Point(321, 366)
+        Me.gruaCH.Margin = New System.Windows.Forms.Padding(2)
         Me.gruaCH.Name = "gruaCH"
-        Me.gruaCH.Size = New System.Drawing.Size(18, 17)
+        Me.gruaCH.Size = New System.Drawing.Size(15, 14)
         Me.gruaCH.TabIndex = 111
         Me.gruaCH.UseVisualStyleBackColor = True
         '
         'OperadorCH
         '
         Me.OperadorCH.AutoSize = True
-        Me.OperadorCH.Location = New System.Drawing.Point(428, 479)
+        Me.OperadorCH.Location = New System.Drawing.Point(321, 389)
+        Me.OperadorCH.Margin = New System.Windows.Forms.Padding(2)
         Me.OperadorCH.Name = "OperadorCH"
-        Me.OperadorCH.Size = New System.Drawing.Size(18, 17)
+        Me.OperadorCH.Size = New System.Drawing.Size(15, 14)
         Me.OperadorCH.TabIndex = 112
         Me.OperadorCH.UseVisualStyleBackColor = True
         '
         'AseguradoraCH
         '
         Me.AseguradoraCH.AutoSize = True
-        Me.AseguradoraCH.Location = New System.Drawing.Point(872, 68)
+        Me.AseguradoraCH.Location = New System.Drawing.Point(654, 55)
+        Me.AseguradoraCH.Margin = New System.Windows.Forms.Padding(2)
         Me.AseguradoraCH.Name = "AseguradoraCH"
-        Me.AseguradoraCH.Size = New System.Drawing.Size(18, 17)
+        Me.AseguradoraCH.Size = New System.Drawing.Size(15, 14)
         Me.AseguradoraCH.TabIndex = 113
         Me.AseguradoraCH.UseVisualStyleBackColor = True
         '
         'FolioCH
         '
         Me.FolioCH.AutoSize = True
-        Me.FolioCH.Location = New System.Drawing.Point(872, 97)
+        Me.FolioCH.Location = New System.Drawing.Point(654, 79)
+        Me.FolioCH.Margin = New System.Windows.Forms.Padding(2)
         Me.FolioCH.Name = "FolioCH"
-        Me.FolioCH.Size = New System.Drawing.Size(18, 17)
+        Me.FolioCH.Size = New System.Drawing.Size(15, 14)
         Me.FolioCH.TabIndex = 114
         Me.FolioCH.UseVisualStyleBackColor = True
         '
         'SiniestroCH
         '
         Me.SiniestroCH.AutoSize = True
-        Me.SiniestroCH.Location = New System.Drawing.Point(872, 126)
+        Me.SiniestroCH.Location = New System.Drawing.Point(654, 102)
+        Me.SiniestroCH.Margin = New System.Windows.Forms.Padding(2)
         Me.SiniestroCH.Name = "SiniestroCH"
-        Me.SiniestroCH.Size = New System.Drawing.Size(18, 17)
+        Me.SiniestroCH.Size = New System.Drawing.Size(15, 14)
         Me.SiniestroCH.TabIndex = 115
         Me.SiniestroCH.UseVisualStyleBackColor = True
         '
         'MotivoCH
         '
         Me.MotivoCH.AutoSize = True
-        Me.MotivoCH.Location = New System.Drawing.Point(872, 189)
+        Me.MotivoCH.Location = New System.Drawing.Point(654, 154)
+        Me.MotivoCH.Margin = New System.Windows.Forms.Padding(2)
         Me.MotivoCH.Name = "MotivoCH"
-        Me.MotivoCH.Size = New System.Drawing.Size(18, 17)
+        Me.MotivoCH.Size = New System.Drawing.Size(15, 14)
         Me.MotivoCH.TabIndex = 116
         Me.MotivoCH.UseVisualStyleBackColor = True
         '
         'EncargadoCH
         '
         Me.EncargadoCH.AutoSize = True
-        Me.EncargadoCH.Location = New System.Drawing.Point(872, 222)
+        Me.EncargadoCH.Location = New System.Drawing.Point(654, 180)
+        Me.EncargadoCH.Margin = New System.Windows.Forms.Padding(2)
         Me.EncargadoCH.Name = "EncargadoCH"
-        Me.EncargadoCH.Size = New System.Drawing.Size(18, 17)
+        Me.EncargadoCH.Size = New System.Drawing.Size(15, 14)
         Me.EncargadoCH.TabIndex = 117
         Me.EncargadoCH.UseVisualStyleBackColor = True
         '
         'ObservacionesCH
         '
         Me.ObservacionesCH.AutoSize = True
-        Me.ObservacionesCH.Location = New System.Drawing.Point(1049, 70)
+        Me.ObservacionesCH.Location = New System.Drawing.Point(787, 57)
+        Me.ObservacionesCH.Margin = New System.Windows.Forms.Padding(2)
         Me.ObservacionesCH.Name = "ObservacionesCH"
-        Me.ObservacionesCH.Size = New System.Drawing.Size(18, 17)
+        Me.ObservacionesCH.Size = New System.Drawing.Size(15, 14)
         Me.ObservacionesCH.TabIndex = 118
         Me.ObservacionesCH.UseVisualStyleBackColor = True
         '
@@ -657,72 +713,80 @@ Partial Class corralonCH
         Me.Fecha.CustomFormat = ""
         Me.Fecha.Enabled = False
         Me.Fecha.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Fecha.Location = New System.Drawing.Point(1092, 9)
+        Me.Fecha.Location = New System.Drawing.Point(819, 7)
+        Me.Fecha.Margin = New System.Windows.Forms.Padding(2)
         Me.Fecha.MaxDate = New Date(2040, 12, 31, 0, 0, 0, 0)
         Me.Fecha.MinDate = New Date(2000, 12, 31, 0, 0, 0, 0)
         Me.Fecha.Name = "Fecha"
-        Me.Fecha.Size = New System.Drawing.Size(161, 27)
+        Me.Fecha.Size = New System.Drawing.Size(122, 23)
         Me.Fecha.TabIndex = 119
         '
         'FechaCH
         '
         Me.FechaCH.AutoSize = True
-        Me.FechaCH.Location = New System.Drawing.Point(1068, 15)
+        Me.FechaCH.Location = New System.Drawing.Point(801, 12)
+        Me.FechaCH.Margin = New System.Windows.Forms.Padding(2)
         Me.FechaCH.Name = "FechaCH"
-        Me.FechaCH.Size = New System.Drawing.Size(18, 17)
+        Me.FechaCH.Size = New System.Drawing.Size(15, 14)
         Me.FechaCH.TabIndex = 120
         Me.FechaCH.UseVisualStyleBackColor = True
         '
         'CostoTotal
         '
         Me.CostoTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CostoTotal.Location = New System.Drawing.Point(627, 478)
+        Me.CostoTotal.Location = New System.Drawing.Point(470, 388)
+        Me.CostoTotal.Margin = New System.Windows.Forms.Padding(2)
         Me.CostoTotal.Name = "CostoTotal"
         Me.CostoTotal.ReadOnly = True
-        Me.CostoTotal.Size = New System.Drawing.Size(107, 22)
+        Me.CostoTotal.Size = New System.Drawing.Size(81, 19)
         Me.CostoTotal.TabIndex = 130
         '
         'Label22
         '
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(469, 481)
+        Me.Label22.Location = New System.Drawing.Point(352, 391)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(55, 17)
+        Me.Label22.Size = New System.Drawing.Size(44, 13)
         Me.Label22.TabIndex = 129
         Me.Label22.Text = "Total :"
         '
         'CostoAbogado
         '
         Me.CostoAbogado.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CostoAbogado.Location = New System.Drawing.Point(627, 449)
+        Me.CostoAbogado.Location = New System.Drawing.Point(470, 365)
+        Me.CostoAbogado.Margin = New System.Windows.Forms.Padding(2)
         Me.CostoAbogado.Name = "CostoAbogado"
-        Me.CostoAbogado.Size = New System.Drawing.Size(107, 22)
+        Me.CostoAbogado.Size = New System.Drawing.Size(81, 19)
         Me.CostoAbogado.TabIndex = 128
         '
         'CostoOficial
         '
         Me.CostoOficial.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CostoOficial.Location = New System.Drawing.Point(627, 423)
+        Me.CostoOficial.Location = New System.Drawing.Point(470, 344)
+        Me.CostoOficial.Margin = New System.Windows.Forms.Padding(2)
         Me.CostoOficial.Name = "CostoOficial"
-        Me.CostoOficial.Size = New System.Drawing.Size(107, 22)
+        Me.CostoOficial.Size = New System.Drawing.Size(81, 19)
         Me.CostoOficial.TabIndex = 127
         '
         'CostoMP
         '
         Me.CostoMP.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CostoMP.Location = New System.Drawing.Point(627, 395)
+        Me.CostoMP.Location = New System.Drawing.Point(470, 321)
+        Me.CostoMP.Margin = New System.Windows.Forms.Padding(2)
         Me.CostoMP.Name = "CostoMP"
-        Me.CostoMP.Size = New System.Drawing.Size(107, 22)
+        Me.CostoMP.Size = New System.Drawing.Size(81, 19)
         Me.CostoMP.TabIndex = 126
         '
         'Label21
         '
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(469, 452)
+        Me.Label21.Location = New System.Drawing.Point(352, 367)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(82, 17)
+        Me.Label21.Size = New System.Drawing.Size(65, 13)
         Me.Label21.TabIndex = 125
         Me.Label21.Text = "Abogado :"
         '
@@ -730,9 +794,10 @@ Partial Class corralonCH
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(469, 423)
+        Me.Label20.Location = New System.Drawing.Point(352, 344)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(64, 17)
+        Me.Label20.Size = New System.Drawing.Size(51, 13)
         Me.Label20.TabIndex = 124
         Me.Label20.Text = "Oficial :"
         '
@@ -740,9 +805,10 @@ Partial Class corralonCH
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(469, 396)
+        Me.Label18.Location = New System.Drawing.Point(352, 322)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(77, 17)
+        Me.Label18.Size = New System.Drawing.Size(62, 13)
         Me.Label18.TabIndex = 123
         Me.Label18.Text = "MP o JC :"
         '
@@ -750,9 +816,10 @@ Partial Class corralonCH
         '
         Me.CostosCHB.AutoSize = True
         Me.CostosCHB.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CostosCHB.Location = New System.Drawing.Point(472, 338)
+        Me.CostosCHB.Location = New System.Drawing.Point(354, 275)
+        Me.CostosCHB.Margin = New System.Windows.Forms.Padding(2)
         Me.CostosCHB.Name = "CostosCHB"
-        Me.CostosCHB.Size = New System.Drawing.Size(79, 21)
+        Me.CostosCHB.Size = New System.Drawing.Size(64, 17)
         Me.CostosCHB.TabIndex = 122
         Me.CostosCHB.Text = "Costos"
         Me.CostosCHB.UseVisualStyleBackColor = True
@@ -762,31 +829,56 @@ Partial Class corralonCH
         Me.Obtxt.BackColor = System.Drawing.SystemColors.Info
         Me.Obtxt.Enabled = False
         Me.Obtxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Obtxt.Location = New System.Drawing.Point(925, 96)
+        Me.Obtxt.Location = New System.Drawing.Point(694, 78)
+        Me.Obtxt.Margin = New System.Windows.Forms.Padding(2)
         Me.Obtxt.Multiline = True
         Me.Obtxt.Name = "Obtxt"
-        Me.Obtxt.Size = New System.Drawing.Size(328, 209)
+        Me.Obtxt.Size = New System.Drawing.Size(247, 171)
         Me.Obtxt.TabIndex = 131
         '
         'Actualizarbtn
         '
         Me.Actualizarbtn.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Actualizarbtn.Location = New System.Drawing.Point(1132, 452)
+        Me.Actualizarbtn.Location = New System.Drawing.Point(849, 367)
+        Me.Actualizarbtn.Margin = New System.Windows.Forms.Padding(2)
         Me.Actualizarbtn.Name = "Actualizarbtn"
-        Me.Actualizarbtn.Size = New System.Drawing.Size(121, 49)
+        Me.Actualizarbtn.Size = New System.Drawing.Size(91, 40)
         Me.Actualizarbtn.TabIndex = 132
         Me.Actualizarbtn.Text = "&Actualizar"
         Me.Actualizarbtn.UseVisualStyleBackColor = True
         '
+        'txtTotalIva
+        '
+        Me.txtTotalIva.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.txtTotalIva.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.9!, System.Drawing.FontStyle.Bold)
+        Me.txtTotalIva.Location = New System.Drawing.Point(470, 412)
+        Me.txtTotalIva.Name = "txtTotalIva"
+        Me.txtTotalIva.ReadOnly = True
+        Me.txtTotalIva.Size = New System.Drawing.Size(81, 19)
+        Me.txtTotalIva.TabIndex = 133
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(352, 415)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(79, 13)
+        Me.Label23.TabIndex = 129
+        Me.Label23.Text = "Total + IVA :"
+        '
         'corralonCH
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1265, 610)
+        Me.ClientSize = New System.Drawing.Size(949, 496)
+        Me.Controls.Add(Me.txtTotalIva)
         Me.Controls.Add(Me.Actualizarbtn)
         Me.Controls.Add(Me.Obtxt)
         Me.Controls.Add(Me.CostoTotal)
+        Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.CostoAbogado)
         Me.Controls.Add(Me.CostoOficial)
@@ -852,6 +944,7 @@ Partial Class corralonCH
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.CorralonCB)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "corralonCH"
         Me.ShowInTaskbar = False
         Me.Text = "ReporteEntradas"
@@ -926,4 +1019,6 @@ Partial Class corralonCH
     Friend WithEvents CostosCHB As System.Windows.Forms.CheckBox
     Friend WithEvents Obtxt As System.Windows.Forms.TextBox
     Friend WithEvents Actualizarbtn As System.Windows.Forms.Button
+    Friend WithEvents txtTotalIva As System.Windows.Forms.TextBox
+    Friend WithEvents Label23 As System.Windows.Forms.Label
 End Class
